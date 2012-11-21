@@ -93,4 +93,7 @@
     .grid{
         float:left;
         padding-left:$base-spacing-unit +px;
+        @if $global-border-box == false{
+            @include vendor(box-sizing, border-box);
+        }
     }
