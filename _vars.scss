@@ -59,10 +59,3 @@ $micro-size:        10!default;
  */
 $brand-color:       #4a8ec2!default;
 $brand-face:        "Helvetica Neue", sans-serif!default;
-
-
-/**
- * We need to supply a full code font-stack in order to combat this:
- * jsfiddle.net/csswizardry/uD6UW
- */
-$code-face:         Inconsolata, Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace!default;
